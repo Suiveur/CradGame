@@ -67,6 +67,11 @@ int GameController::undoOnce(cocos2d::Vec2& pos)
         _gameModel.trayCard = _gameModel.stackCards.back();
     }
 
+    if (cm.getId() < _gameModel.playfieldCards.size())
+    {
+        _gameModel.noMatchCount--;
+    }
+
     return cm.getId();
 }
 

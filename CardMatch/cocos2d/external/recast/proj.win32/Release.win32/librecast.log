@@ -6,7 +6,7 @@
   DetourPathCorridor.cpp
   DetourPathQueue.cpp
   DetourProximityGrid.cpp
-F:\Cocos_code\CardMatch\cocos2d\external\recast\DetourCrowd\DetourObstacleAvoidance.cpp(334,18): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\external\recast\DetourCrowd\DetourObstacleAvoidance.cpp(334,18): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
   DetourTileCache.cpp
   DetourTileCacheBuilder.cpp
   DetourAlloc.cpp
@@ -16,4 +16,4 @@ F:\Cocos_code\CardMatch\cocos2d\external\recast\DetourCrowd\DetourObstacleAvoida
   DetourNavMeshQuery.cpp
   DetourNode.cpp
   fastlz.c
-  librecast.vcxproj -> F:\Cocos_code\CardMatch\proj.win32\Release.win32\librecast.lib
+  librecast.vcxproj -> F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\librecast.lib

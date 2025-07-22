@@ -8,10 +8,10 @@
   CCControlButton.cpp
   CCControlColourPicker.cpp
   CCControlHuePicker.cpp
-F:\Cocos_code\CardMatch\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(1180,46): warning C4305: “+=”: 从“double”到“float”截断
   CCControlPotentiometer.cpp
   CCControlSaturationBrightnessPicker.cpp
   CCControlSlider.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(1180,46): warning C4305: “+=”: 从“double”到“float”截断
   CCControlStepper.cpp
   CCControlSwitch.cpp
   CCControlUtils.cpp
@@ -184,8 +184,8 @@ F:\Cocos_code\CardMatch\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(11
   idl_parser.cpp
   md5.c
   shapes.cc
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\external\flatbuffers\idl_parser.cpp(790,9): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
   advancing_front.cc
-F:\Cocos_code\CardMatch\cocos2d\external\flatbuffers\idl_parser.cpp(790,9): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
   cdt.cc
   sweep.cc
   sweep_context.cc
@@ -194,9 +194,9 @@ F:\Cocos_code\CardMatch\cocos2d\external\flatbuffers\idl_parser.cpp(790,9): warn
   ioapi.cpp
   unzip.cpp
   xxhash.c
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\external\xxhash\xxhash.c(312,5): warning C4804: “/”: 在操作中使用类型“bool”不安全
   CCAABB.cpp
   CCAnimate3D.cpp
-F:\Cocos_code\CardMatch\cocos2d\external\xxhash\xxhash.c(312,5): warning C4804: “/”: 在操作中使用类型“bool”不安全
   CCAnimation3D.cpp
   CCAttachNode.cpp
   CCBillBoard.cpp
@@ -241,7 +241,7 @@ F:\Cocos_code\CardMatch\cocos2d\external\xxhash\xxhash.c(312,5): warning C4804: 
   CCData.cpp
   CCDataVisitor.cpp
   CCDirector.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\base\CCDirector.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\base\CCDirector.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   CCEvent.cpp
   CCEventAcceleration.cpp
   CCEventController.cpp
@@ -313,17 +313,17 @@ F:\Cocos_code\CardMatch\cocos2d\cocos\base\CCDirector.cpp(1,1): warning C4819: �
   CCSpriteLoader.cpp
   CCActionTimeline.cpp
   CCActionTimelineCache.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
   CCActionTimelineNode.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
   CCBoneNode.cpp
   CCFrame.cpp
   CCSkeletonNode.cpp
@@ -339,19 +339,19 @@ F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_ge
   CCArmatureAnimation.cpp
   CCArmatureDataManager.cpp
   CCArmatureDefine.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
   CCBatchNode.cpp
   CCBone.cpp
   CCColliderDetector.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
   CCComAttribute.cpp
   CCComAudio.cpp
   CCComController.cpp
@@ -379,346 +379,346 @@ F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_ge
   TriggerBase.cpp
   TriggerMng.cpp
   TriggerObj.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
   WidgetCallBackHandlerProtocol.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
   ArmatureNodeReader.cpp
   ButtonReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
   CheckBoxReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
   ComAudioReader.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
   GameMapReader.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
   GameNode3DReader.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
   ImageViewReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
   LayoutReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
   Light3DReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
   ListViewReader.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
   LoadingBarReader.cpp
   NodeReaderDefine.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
   NodeReaderProtocol.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
   NodeReader.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
   PageViewReader.cpp
   ParticleReader.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
   ProjectNodeReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
   ScrollViewReader.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
   SingleNodeReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
   BoneNodeReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
   SkeletonNodeReader.cpp
   SliderReader.cpp
   SpriteReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
   TabControlReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
   TextAtlasReader.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
   TextBMFontReader.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
   TextFieldReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
   TextReader.cpp
   Node3DReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
   Sprite3DReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
   UserCameraReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
   Particle3DReader.cpp
   WidgetReader.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
@@ -731,12 +731,12 @@ F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_ge
   Quaternion.cpp
   TransformUtils.cpp
   Vec2.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
-F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
@@ -776,7 +776,7 @@ F:\Cocos_code\CardMatch\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_ge
   CCApplication-win32.cpp
   CCCommon-win32.cpp
   CCDevice-win32.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\platform\CCSAXParser.cpp(169,35): warning C4101: “e”: 未引用的局部变量
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\platform\CCSAXParser.cpp(169,35): warning C4101: “e”: 未引用的局部变量
   CCFileUtils-win32.cpp
   CCStdC-win32.cpp
   CCUtils-win32.cpp
@@ -786,11 +786,11 @@ F:\Cocos_code\CardMatch\cocos2d\cocos\platform\CCSAXParser.cpp(169,35): warning 
   CCGLProgram.cpp
   CCGLProgramCache.cpp
   CCGLProgramState.cpp
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\renderer\CCGLProgramState.cpp(914,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\renderer\CCGLProgramState.cpp(918,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
   CCGLProgramStateCache.cpp
-F:\Cocos_code\CardMatch\cocos2d\cocos\renderer\CCGLProgramState.cpp(914,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
-F:\Cocos_code\CardMatch\cocos2d\cocos\renderer\CCGLProgramState.cpp(918,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
-F:\Cocos_code\CardMatch\cocos2d\cocos\renderer\CCGLProgramState.cpp(935,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
-F:\Cocos_code\CardMatch\cocos2d\cocos\renderer\CCGLProgramState.cpp(939,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\renderer\CCGLProgramState.cpp(935,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
+F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\renderer\CCGLProgramState.cpp(939,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
   ccGLStateCache.cpp
   CCGroupCommand.cpp
   CCMaterial.cpp
@@ -921,87 +921,62 @@ F:\Cocos_code\CardMatch\cocos2d\cocos\renderer\CCGLProgramState.cpp(939,14): war
   CCTransitionPageTurn.cpp
   CCTransitionProgress.cpp
   CCTweenFunction.cpp
-  复制了 1 个文件
-  复制了 1 个文件
-  复制了 2 个文件
-  复制了 1 个文件
-  复制了 1 个文件
-  复制了 1 个文件
-  复制了 1 个文件
-  复制了 2 个文件
-  复制了 2 个文件
-  复制了 2 个文件
-  复制了 2 个文件
-  复制了 2 个文件
-  复制了 2 个文件
-  复制了 6 个文件
-  复制了 2 个文件
-  复制了 1 个文件
-  复制了 1 个文件
-  复制了 1 个文件
-  复制了 4 个文件
-libtiff.lib(tif_win32.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
-  libchipmunk.lib(chipmunk.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
-libtiff.lib(tif_win32.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
-    正在创建库 F:\Cocos_code\CardMatch\proj.win32\Release.win32\libcocos2d.lib 和对象 F:\Cocos_code\CardMatch\proj.win32\Release.win32\libcocos2d.exp
-LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
-  正在生成代码
-  已完成代码的生成
-libchipmunk.lib(chipmunk.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(chipmunk.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpBody.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpBody.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpShape.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpShape.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpConstraint.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpConstraint.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpPinJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpPinJoint.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSlideJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpSlideJoint.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpPivotJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpPivotJoint.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpGrooveJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpGrooveJoint.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpDampedSpring.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpDampedSpring.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpace.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpSpace.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpaceComponent.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpSpaceComponent.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpArbiter.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpArbiter.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpDampedRotarySpring.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpDampedRotarySpring.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpRotaryLimitJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpRotaryLimitJoint.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpRatchetJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpRatchetJoint.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpGearJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpGearJoint.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSimpleMotor.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpSimpleMotor.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpPolyShape.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpPolyShape.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpaceQuery.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpSpaceQuery.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpaceStep.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpSpaceStep.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpaceDebug.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpSpaceDebug.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpArray.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpArray.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpCollision.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpCollision.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpHashSet.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpHashSet.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpBBTree.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpBBTree.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpaceHash.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpSpaceHash.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpatialIndex.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpSpatialIndex.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpRobust.obj) : warning LNK4099: 未找到 PDB“chipmunk.pdb”(使用“libchipmunk.lib(cpRobust.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\chipmunk.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_aux.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_aux.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_close.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_close.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_codec.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_codec.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_color.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_color.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_compress.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_compress.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_dir.obj) : warning LNK4099: 未找到 PDB“”(使用“libtiff.lib(tif_dir.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_dirinfo.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dirinfo.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_dirread.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dirread.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_dirwrite.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dirwrite.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_dumpmode.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dumpmode.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_error.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_error.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_fax3.obj) : warning LNK4099: 未找到 PDB“”(使用“libtiff.lib(tif_fax3.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_fax3sm.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_fax3sm.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_getimage.obj) : warning LNK4099: 未找到 PDB“”(使用“libtiff.lib(tif_getimage.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_flush.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_flush.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_luv.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_luv.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_lzw.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_lzw.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_next.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_next.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_open.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_open.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_packbits.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_packbits.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_predict.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_predict.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_read.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_read.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_swab.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_swab.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_strip.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_strip.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_thunder.obj) : warning LNK4099: 未找到 PDB“”(使用“libtiff.lib(tif_thunder.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_tile.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_tile.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_warning.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_warning.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_write.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_write.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_win32.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_win32.obj)”或在“F:\Cocos_code\CardMatch\proj.win32\Release.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-  libcocos2d.vcxproj -> F:\Cocos_code\CardMatch\proj.win32\Release.win32\libcocos2d.dll
+  复制了 0 个文件
+  找不到文件 - *.*
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+  找不到文件 - *.*
+  复制了 0 个文件
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: 命令“if not exist "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\" mkdir "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\freetype2\prebuilt\win32\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\glfw3\prebuilt\win32\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\curl\prebuilt\win32\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\jpeg\prebuilt\win32\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\png\prebuilt\win32\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\tiff\prebuilt\win32\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\webp\prebuilt\win32\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\prebuilt\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\win32-specific\icon\prebuilt\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\win32-specific\gles\prebuilt\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\win32-specific\OpenalSoft\prebuilt\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\win32-specific\MP3Decoder\prebuilt\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\win32-specific\OggDecoder\prebuilt\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\sqlite3\libraries\win32\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\chipmunk\prebuilt\win32\release-lib\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\bullet\prebuilt\win32\release\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\Box2D\prebuilt\win32\release\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: xcopy /Y /Q "F:\Cocos_code\CardGame\CradGame\CardMatch\cocos2d\cocos\2d\..\..\external\openssl\prebuilt\win32\*.*" "F:\Cocos_code\CardGame\CradGame\CardMatch\proj.win32\Release.win32\"
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(154,5): error MSB3073: :VCEnd”已退出，代码为 4。

@@ -37,9 +37,12 @@ bool GameTestScene::init()
         loadCard(card);
     }
     _trcy.set(_allCard.back()->getPosition());
+
+    //_eventDispatcher->pauseEventListenersForTarget(_allCard.back());
+    
     updateCanTouch();
     _trcyCount = 0;// 一张底牌
-
+    
     return true; 
 }
 
@@ -128,7 +131,7 @@ void GameTestScene::updateCanTouch()
         }
         _canTouchSprite.push_back(cardSpr);
     }
-
+    _canTouchSprite.remove(_allCard.back());
 }
 
 Sprite* GameTestScene::loadSuit(CardSuitType cardSuit)
@@ -245,9 +248,8 @@ void GameTestScene::setupSpriteTouch(cocos2d::Sprite* sprite)
         Vec2 locationInNode = target->convertToNodeSpace(touch->getLocation());
 
         // 检查触摸点是否在精灵范围内
-        if (rect.containsPoint(locationInNode)) {
-            
-
+        if (rect.containsPoint(locationInNode)) 
+        {
             for (auto sprite : this->getCanTouchSprite()) 
             {
                 if (target == sprite) 
@@ -274,13 +276,15 @@ void GameTestScene::setupSpriteTouch(cocos2d::Sprite* sprite)
             this->addTrcyCount();
             target->setLocalZOrder(this->getTrcyCount());
             target->runAction(CCMoveTo::create(0.5, ccp(this->getTrcy().x, this->getTrcy().y)));
+            _eventDispatcher->pauseEventListenersForTarget(target);
         }
         target->setOpacity(255); // 恢复不透明
         if (_gameController.isWin())
         {
-            auto labelWin = Label::createWithTTF("YOU WIN", "fonts/Marker Felt.ttf", 36);
+            auto labelWin = Label::createWithTTF("YOU WIN", "fonts/Marker Felt.ttf", 72);
             labelWin->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
             labelWin->setPosition((Director::getInstance()->getVisibleSize() / 2));
+            this->addChild(labelWin);
         }
     };
 
@@ -311,8 +315,9 @@ void GameTestScene::undoView(int undoTag,Vec2 pos)
     }
     
     this->subTrcyCount();
-    undoCard->setLocalZOrder(0);
     undoCard->runAction(CCMoveTo::create(0.5, ccp(pos.x, pos.y + 400)));
+    undoCard->setLocalZOrder(0);
+    _eventDispatcher->resumeEventListenersForTarget(undoCard);
 }
 
 std::list<cocos2d::Sprite*> GameTestScene::getCanTouchSprite()

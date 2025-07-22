@@ -1,1 +1,0 @@
-F:\Cocos_code\CardMatch\proj.win32\Release.win32\CardMatch.exe

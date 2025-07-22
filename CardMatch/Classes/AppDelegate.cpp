@@ -1,6 +1,6 @@
 
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
+
 #include "views/MainScene.h"
 
 // #define USE_AUDIO_ENGINE 1
