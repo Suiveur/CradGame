@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Models">
+      <UniqueIdentifier>{5d19cc19-36d2-441f-85bd-62d3e7ea2223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utils">
+      <UniqueIdentifier>{0a519118-d53a-46c0-8a59-a380e6dd7e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Configs">
+      <UniqueIdentifier>{d6c56916-ebc0-4580-a784-20a0e6ebb101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controller">
+      <UniqueIdentifier>{60abc0d9-1091-4a73-9460-593de61b9ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Views">
+      <UniqueIdentifier>{1da53e1e-efdd-473b-a23b-41a901241910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Services">
+      <UniqueIdentifier>{2203fca7-cec0-463e-b757-d1cadee18c3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\CardModel.cpp">
+      <Filter>src\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\GameModel.cpp">
+      <Filter>src\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\configs\LevelConfigLoader.cpp">
+      <Filter>src\Configs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\GameTestScene.cpp">
+      <Filter>src\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\services\GameModelGenerator.cpp">
+      <Filter>src\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controllers\GameController.cpp">
+      <Filter>src\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\MainScene.cpp">
+      <Filter>src\Views</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\CardModel.h">
+      <Filter>src\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\GameModel.h">
+      <Filter>src\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\configs\LevelConfig.h">
+      <Filter>src\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\CardEnum.h">
+      <Filter>src\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\configs\LevelConfigLoader.h">
+      <Filter>src\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\GameTestScene.h">
+      <Filter>src\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\services\GameModelGenerator.h">
+      <Filter>src\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controllers\GameController.h">
+      <Filter>src\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\MainScene.h">
+      <Filter>src\Views</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\configs\level_1.json">
+      <Filter>src\Configs</Filter>
+    </None>
+  </ItemGroup>
+</Project>
